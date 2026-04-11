@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "boxlang-docs": {
+      "type": "sse",
+      "url": "https://boxlang.ortusbooks.com/~gitbook/mcp"
+    },
+    "coldbox-docs": {
+      "type": "sse",
+      "url": "https://coldbox.ortusbooks.com/~gitbook/mcp"
+    },
+    "testbox-docs": {
+      "type": "sse",
+      "url": "https://testbox.ortusbooks.com/~gitbook/mcp"
+    },
+    "wirebox-docs": {
+      "type": "sse",
+      "url": "https://wirebox.ortusbooks.com/~gitbook/mcp"
+    },
+    "cachebox-docs": {
+      "type": "sse",
+      "url": "https://cachebox.ortusbooks.com/~gitbook/mcp"
+    },
+    "logbox-docs": {
+      "type": "sse",
+      "url": "https://logbox.ortusbooks.com/~gitbook/mcp"
+    },
+    "docbox-docs": {
+      "type": "sse",
+      "url": "https://docbox.ortusbooks.com/~gitbook/mcp"
+    }
+  }
+}

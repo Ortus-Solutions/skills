@@ -1,0 +1,32 @@
+{
+  "name": "ortus-agent-skills",
+  "version": "1.0.0",
+  "description": "Ortus skills for Claude Code covering frontend frameworks, languages, BoxLang, security, code review, and documentation",
+  "author": {
+    "name": "Ortus Solutions",
+    "email": "info@ortussolutions.com",
+    "url": "https://www.ortussolutions.com"
+  },
+  "homepage": "https://www.ortussolutions.com",
+  "repository": "https://github.com/Ortus-Solutions/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "ortus",
+    "skills",
+    "claude",
+    "boxlang",
+    "javascript",
+    "typescript",
+    "java",
+    "vue",
+    "vite",
+    "tailwind",
+    "bootstrap",
+    "security",
+    "code-review"
+  ],
+  "skills": [
+    "./skills/"
+  ],
+  "mcpServers": "./.mcp.json"
+}
