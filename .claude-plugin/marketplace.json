@@ -1,9 +1,35 @@
 {
   "name": "ortus-agent-skills",
-  "displayName": "Ortus Agent Skills",
-  "version": "1.0.0",
-  "author": "Ortus Solutions",
-  "description": "Production-ready Claude skills for frontend engineering, language expertise, BoxLang development, security, code review, and technical documentation",
-  "repository": "https://github.com/Ortus-Solutions/skills",
-  "manifest": "./plugin.json"
+  "owner": {
+    "name": "Ortus Solutions",
+    "email": "info@ortussolutions.com"
+  },
+  "metadata": {
+    "description": "Production-ready Claude Code skills for frontend engineering, language expertise, BoxLang development, security, code review, and technical documentation",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ortus-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "Ortus-Solutions/skills"
+      },
+      "description": "Ortus skills for Claude Code covering frontend frameworks, languages, BoxLang, security, code review, and documentation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ortus Solutions",
+        "email": "info@ortussolutions.com"
+      },
+      "homepage": "https://www.ortussolutions.com",
+      "repository": "https://github.com/Ortus-Solutions/skills",
+      "license": "Apache-2.0",
+      "keywords": ["ortus", "boxlang", "javascript", "typescript", "java", "vue", "vite", "tailwind", "bootstrap", "alpinejs", "security", "code-review", "documentation"],
+      "category": "languages",
+      "skills": [
+        "./skills/"
+      ],
+      "mcpServers": "./.mcp.json"
+    }
+  ]
 }

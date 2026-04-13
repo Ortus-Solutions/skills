@@ -22,8 +22,10 @@
     "vite",
     "tailwind",
     "bootstrap",
+    "alpinejs",
     "security",
-    "code-review"
+    "code-review",
+    "documentation"
   ],
   "skills": [
     "./skills/"
