@@ -1,16 +1,31 @@
 ---
 name: code-reviewer
-description: Use when performing high-signal code reviews focused on correctness, security, maintainability, performance, and test coverage risk. Invoke for pull request review, architecture drift detection, bug risk assessment, and actionable feedback with severity-ranked findings.
+description: >-
+  Use when performing high-signal code reviews focused on correctness, security,
+  maintainability, performance, and test coverage risk. Invoke for pull request
+  review, architecture drift detection, bug risk assessment, and actionable
+  feedback with severity-ranked findings.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: quality
-  triggers: code review, pull request review, defect risk, regression analysis, test gaps, maintainability, performance review
+  triggers:
+    - code review
+    - pull request review
+    - defect risk
+    - regression analysis
+    - test gaps
+    - maintainability
+    - performance review
   role: expert
   scope: review
   output-format: report
-  related-skills: security-expert, code-documenter, javascript-expert, boxlang-expert
+  related-skills:
+    - security-expert
+    - code-documenter
+    - javascript-expert
+    - boxlang-expert
 ---
 
 # Code Reviewer

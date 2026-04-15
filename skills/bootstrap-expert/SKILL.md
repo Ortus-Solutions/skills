@@ -1,16 +1,30 @@
 ---
 name: bootstrap-expert
-description: Use when building or modernizing Bootstrap-based interfaces that need consistent layout systems, reusable components, and accessible behavior. Invoke for grid architecture, utility usage, theme customization, migration planning, and Bootstrap JavaScript integration.
+description: >-
+  Use when building or modernizing Bootstrap-based interfaces that need
+  consistent layout systems, reusable components, and accessible behavior.
+  Invoke for grid architecture, utility usage, theme customization, migration
+  planning, and Bootstrap JavaScript integration.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: frontend
-  triggers: bootstrap, grid, utility api, sass variables, bootstrap components, responsive layout, migration
+  triggers:
+    - bootstrap
+    - grid
+    - utility api
+    - sass variables
+    - bootstrap components
+    - responsive layout
+    - migration
   role: expert
   scope: implementation
   output-format: code
-  related-skills: tailwind-expert, javascript-expert, code-reviewer
+  related-skills:
+    - tailwind-expert
+    - javascript-expert
+    - code-reviewer
 ---
 
 # Bootstrap Expert

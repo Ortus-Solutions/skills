@@ -1,16 +1,34 @@
 ---
 name: security-expert
-description: Use when designing, implementing, or reviewing secure software systems with practical threat modeling and defense-in-depth controls. Invoke for authentication, authorization, secrets handling, input validation, secure coding standards, and remediation planning.
+description: >-
+  Use when designing, implementing, or reviewing secure software systems with
+  practical threat modeling and defense-in-depth controls. Invoke for
+  authentication, authorization, secrets handling, input validation, secure
+  coding standards, and remediation planning.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: security
-  triggers: owasp, authn, authz, threat model, secrets, xss, csrf, sql injection, security review, hardening
+  triggers:
+    - owasp
+    - authn
+    - authz
+    - threat model
+    - secrets
+    - xss
+    - csrf
+    - sql injection
+    - security review
+    - hardening
   role: expert
   scope: analysis
   output-format: analysis-and-code
-  related-skills: code-reviewer, java-expert, javascript-expert, boxlang-expert
+  related-skills:
+    - code-reviewer
+    - java-expert
+    - javascript-expert
+    - boxlang-expert
 ---
 
 # Security Expert

@@ -1,16 +1,31 @@
 ---
 name: alpinejs-expert
-description: Use when implementing or reviewing Alpine.js behavior in server-rendered or progressively enhanced UIs. Invoke for component state design, directives, event handling, transition behavior, reusable stores, and maintainable lightweight interactivity.
+description: >-
+  Use when implementing or reviewing Alpine.js behavior in server-rendered or
+  progressively enhanced UIs. Invoke for component state design, directives,
+  event handling, transition behavior, reusable stores, and maintainable
+  lightweight interactivity.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: frontend
-  triggers: alpinejs, x-data, x-show, x-model, x-on, x-bind, progressive enhancement, html interactivity
+  triggers:
+    - alpinejs
+    - x-data
+    - x-show
+    - x-model
+    - x-on
+    - x-bind
+    - progressive enhancement
+    - html interactivity
   role: expert
   scope: implementation
   output-format: code
-  related-skills: javascript-expert, tailwind-expert, code-reviewer
+  related-skills:
+    - javascript-expert
+    - tailwind-expert
+    - code-reviewer
 ---
 
 # AlpineJS Expert

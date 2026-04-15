@@ -1,16 +1,33 @@
 ---
 name: boxlang-expert
-description: Use when building or reviewing BoxLang applications, modules, and runtime-integrated code following Ortus conventions. Invoke for language idioms, async patterns, BIF/component usage, configuration, Java interop, testing, and runtime extension strategies.
+description: >-
+  Use when building or reviewing BoxLang applications, modules, and
+  runtime-integrated code following Ortus conventions. Invoke for language
+  idioms, async patterns, BIF/component usage, configuration, Java interop,
+  testing, and runtime extension strategies.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: specialized
-  triggers: boxlang, box, bifs, components, moduleconfig, boxruntime, boxfuture, commandbox, testbox
+  triggers:
+    - boxlang
+    - box
+    - bifs
+    - components
+    - moduleconfig
+    - boxruntime
+    - boxfuture
+    - commandbox
+    - testbox
   role: expert
   scope: implementation
   output-format: code
-  related-skills: java-expert, security-expert, code-documenter, code-reviewer
+  related-skills:
+    - java-expert
+    - security-expert
+    - code-documenter
+    - code-reviewer
 ---
 
 # BoxLang Expert

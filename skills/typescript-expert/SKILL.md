@@ -1,16 +1,31 @@
 ---
 name: typescript-expert
-description: Use when designing or refactoring TypeScript code for strong type safety, API clarity, and scalable project architecture. Invoke for strict mode adoption, generics design, inference improvements, declaration patterns, and safe migration from JavaScript.
+description: >-
+  Use when designing or refactoring TypeScript code for strong type safety, API
+  clarity, and scalable project architecture. Invoke for strict mode adoption,
+  generics design, inference improvements, declaration patterns, and safe
+  migration from JavaScript.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: language
-  triggers: typescript, tsconfig, strict mode, generics, type narrowing, declaration merging, api contracts
+  triggers:
+    - typescript
+    - tsconfig
+    - strict mode
+    - generics
+    - type narrowing
+    - declaration merging
+    - api contracts
   role: expert
   scope: implementation
   output-format: code
-  related-skills: javascript-expert, vuejs-expert, vite-expert, code-reviewer
+  related-skills:
+    - javascript-expert
+    - vuejs-expert
+    - vite-expert
+    - code-reviewer
 ---
 
 # TypeScript Expert

@@ -1,16 +1,32 @@
 ---
 name: code-documenter
-description: Use when producing or improving developer-facing documentation for codebases, APIs, modules, and architecture decisions. Invoke for inline comments, docstrings, API references, onboarding guides, runbooks, and consistency audits across documentation assets.
+description: >-
+  Use when producing or improving developer-facing documentation for codebases,
+  APIs, modules, and architecture decisions. Invoke for inline comments,
+  docstrings, API references, onboarding guides, runbooks, and consistency
+  audits across documentation assets.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: quality
-  triggers: documentation, docstrings, api docs, runbook, architecture notes, onboarding, technical writing, comments
+  triggers:
+    - documentation
+    - docstrings
+    - api docs
+    - runbook
+    - architecture notes
+    - onboarding
+    - technical writing
+    - comments
   role: expert
   scope: implementation
   output-format: document
-  related-skills: code-reviewer, boxlang-expert, java-expert, typescript-expert
+  related-skills:
+    - code-reviewer
+    - boxlang-expert
+    - java-expert
+    - typescript-expert
 ---
 
 # Code Documenter

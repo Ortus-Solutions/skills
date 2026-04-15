@@ -1,16 +1,32 @@
 ---
 name: vuejs-expert
-description: Use when building or scaling Vue applications with maintainable component architecture, robust state management, and performance-aware rendering. Invoke for Composition API patterns, routing, forms, testing, and SSR-aware component design.
+description: >-
+  Use when building or scaling Vue applications with maintainable component
+  architecture, robust state management, and performance-aware rendering. Invoke
+  for Composition API patterns, routing, forms, testing, and SSR-aware
+  component design.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: frontend
-  triggers: vue, vue3, composition api, pinia, vue router, single file component, reactivity, ssr
+  triggers:
+    - vue
+    - vue3
+    - composition api
+    - pinia
+    - vue router
+    - single file component
+    - reactivity
+    - ssr
   role: expert
   scope: implementation
   output-format: code
-  related-skills: vite-expert, typescript-expert, javascript-expert, code-reviewer
+  related-skills:
+    - vite-expert
+    - typescript-expert
+    - javascript-expert
+    - code-reviewer
 ---
 
 # VueJS Expert

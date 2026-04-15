@@ -1,16 +1,34 @@
 ---
 name: vite-expert
-description: Use when building or maintaining Vite-based frontend applications that need fast local development, reliable production builds, optimized asset pipelines, or plugin-level customization. Invoke for HMR issues, build performance, code splitting, environment handling, Vitest integration, and Vite config refactors.
+description: >-
+  Use when building or maintaining Vite-based frontend applications that need
+  fast local development, reliable production builds, optimized asset pipelines,
+  or plugin-level customization. Invoke for HMR issues, build performance, code
+  splitting, environment handling, Vitest integration, and Vite config refactors.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: frontend
-  triggers: vite, vitest, hmr, rollup, esbuild, code splitting, frontend build, frontend tooling, vite config, asset pipeline
+  triggers:
+    - vite
+    - vitest
+    - hmr
+    - rollup
+    - esbuild
+    - code splitting
+    - frontend build
+    - frontend tooling
+    - vite config
+    - asset pipeline
   role: expert
   scope: implementation
   output-format: code
-  related-skills: vuejs-expert, tailwind-expert, javascript-expert, typescript-expert
+  related-skills:
+    - vuejs-expert
+    - tailwind-expert
+    - javascript-expert
+    - typescript-expert
 ---
 
 # Vite Expert

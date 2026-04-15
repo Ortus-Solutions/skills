@@ -1,16 +1,32 @@
 ---
 name: javascript-expert
-description: Use when implementing or reviewing modern JavaScript for correctness, readability, performance, and runtime safety across browser and Node environments. Invoke for async flows, module design, data transformation, error handling, and architectural refactors.
+description: >-
+  Use when implementing or reviewing modern JavaScript for correctness,
+  readability, performance, and runtime safety across browser and Node
+  environments. Invoke for async flows, module design, data transformation,
+  error handling, and architectural refactors.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: language
-  triggers: javascript, esm, async await, promises, event loop, node, browser api, functional patterns
+  triggers:
+    - javascript
+    - esm
+    - async await
+    - promises
+    - event loop
+    - node
+    - browser api
+    - functional patterns
   role: expert
   scope: implementation
   output-format: code
-  related-skills: typescript-expert, vite-expert, code-reviewer, security-expert
+  related-skills:
+    - typescript-expert
+    - vite-expert
+    - code-reviewer
+    - security-expert
 ---
 
 # JavaScript Expert

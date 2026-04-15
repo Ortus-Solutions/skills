@@ -1,16 +1,31 @@
 ---
 name: tailwind-expert
-description: Use when designing, implementing, or refactoring Tailwind CSS systems for consistency, scale, and performance. Invoke for utility composition, design tokens, theme extension, responsive strategy, accessibility styling, and class management patterns.
+description: >-
+  Use when designing, implementing, or refactoring Tailwind CSS systems for
+  consistency, scale, and performance. Invoke for utility composition, design
+  tokens, theme extension, responsive strategy, accessibility styling, and
+  class management patterns.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: frontend
-  triggers: tailwind, utility classes, design tokens, tw config, responsive css, dark mode, component styling
+  triggers:
+    - tailwind
+    - utility classes
+    - design tokens
+    - tw config
+    - responsive css
+    - dark mode
+    - component styling
   role: expert
   scope: implementation
   output-format: code
-  related-skills: vuejs-expert, bootstrap-expert, vite-expert, code-reviewer
+  related-skills:
+    - vuejs-expert
+    - bootstrap-expert
+    - vite-expert
+    - code-reviewer
 ---
 
 # Tailwind Expert

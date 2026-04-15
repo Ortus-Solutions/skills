@@ -1,16 +1,33 @@
 ---
 name: java-expert
-description: Use when implementing or reviewing Java services, libraries, and backend systems with modern language features and JVM best practices. Invoke for API design, concurrency, performance profiling, dependency management, testing strategy, and production hardening.
+description: >-
+  Use when implementing or reviewing Java services, libraries, and backend
+  systems with modern language features and JVM best practices. Invoke for API
+  design, concurrency, performance profiling, dependency management, testing
+  strategy, and production hardening.
 license: MIT
 metadata:
-  author: https://github.com/Ortus-Solutions
+  author: "https://github.com/Ortus-Solutions"
   version: "1.0.0"
   domain: backend
-  triggers: java, jvm, gradle, maven, concurrency, virtual threads, api design, profiling, junit
+  triggers:
+    - java
+    - jvm
+    - gradle
+    - maven
+    - concurrency
+    - virtual threads
+    - api design
+    - profiling
+    - junit
   role: expert
   scope: implementation
   output-format: code
-  related-skills: security-expert, code-reviewer, code-documenter, typescript-expert
+  related-skills:
+    - security-expert
+    - code-reviewer
+    - code-documenter
+    - typescript-expert
 ---
 
 # Java Expert
