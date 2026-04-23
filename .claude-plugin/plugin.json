@@ -28,7 +28,21 @@
     "documentation"
   ],
   "skills": [
-    "./skills/"
+    "./alpinejs-expert/",
+    "./bootstrap-expert/",
+    "./boxlang-expert/",
+    "./code-documenter/",
+    "./code-reviewer/",
+    "./gitbook-docs-expert/",
+    "./github-action-authoring/",
+    "./java-expert/",
+    "./javascript-expert/",
+    "./ortus-java-coding-standards/",
+    "./security-expert/",
+    "./tailwind-expert/",
+    "./typescript-expert/",
+    "./vite-expert/",
+    "./vuejs-expert/"
   ],
   "mcpServers": "./.mcp.json"
 }

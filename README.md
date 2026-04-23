@@ -2,7 +2,7 @@
 
 > Production-ready Claude Code skills from Ortus Solutions for frontend engineering, language expertise, BoxLang development, security analysis, code review, and technical documentation.
 
-This repository follows a flat `skills/<slug>/SKILL.md` layout and works as a Claude Code plugin marketplace as well as skills.sh-compatible tooling.
+This repository follows a flat `<slug>/SKILL.md` layout at the repository root and works as a Claude Code plugin marketplace as well as skills.sh-compatible tooling.
 
 ---
 
@@ -23,9 +23,9 @@ This repository follows a flat `skills/<slug>/SKILL.md` layout and works as a Cl
 npx skills add Ortus-Solutions/skills
 
 # Install a single skill
-npx skills add Ortus-Solutions/skills/skills/vuejs-expert
-npx skills add Ortus-Solutions/skills/skills/boxlang-expert
-npx skills add Ortus-Solutions/skills/skills/security-expert
+npx skills add Ortus-Solutions/skills/vuejs-expert
+npx skills add Ortus-Solutions/skills/boxlang-expert
+npx skills add Ortus-Solutions/skills/security-expert
 ```
 
 ---
@@ -34,18 +34,21 @@ npx skills add Ortus-Solutions/skills/skills/security-expert
 
 | Skill | What It Covers |
 |-------|----------------|
-| [`alpinejs-expert`](./skills/alpinejs-expert/SKILL.md) | Alpine.js component state, directives, progressive enhancement, accessibility |
-| [`bootstrap-expert`](./skills/bootstrap-expert/SKILL.md) | Bootstrap grid, components, upgrades, theming, JavaScript integration |
-| [`boxlang-expert`](./skills/boxlang-expert/SKILL.md) | BoxLang idioms, modules, async flows, runtime integration, Ortus conventions |
-| [`code-documenter`](./skills/code-documenter/SKILL.md) | API docs, docstrings, runbooks, onboarding docs, documentation consistency |
-| [`code-reviewer`](./skills/code-reviewer/SKILL.md) | Severity-ranked code review, regression risk, correctness, performance, test gaps |
-| [`java-expert`](./skills/java-expert/SKILL.md) | Java service design, concurrency, profiling, testing, production hardening |
-| [`javascript-expert`](./skills/javascript-expert/SKILL.md) | Modern JavaScript design, async flows, module boundaries, runtime safety |
-| [`security-expert`](./skills/security-expert/SKILL.md) | Threat modeling, auth, validation, secrets, secure coding remediation |
-| [`tailwind-expert`](./skills/tailwind-expert/SKILL.md) | Tailwind tokens, utility composition, responsive patterns, accessibility styling |
-| [`typescript-expert`](./skills/typescript-expert/SKILL.md) | Type modeling, strict mode adoption, generics, inference, runtime boundary safety |
-| [`vite-expert`](./skills/vite-expert/SKILL.md) | Vite configuration, HMR, bundling strategy, env handling, Vitest integration |
-| [`vuejs-expert`](./skills/vuejs-expert/SKILL.md) | Vue 3 Composition API, component architecture, state ownership, rendering patterns |
+| [`alpinejs-expert`](./alpinejs-expert/SKILL.md) | Alpine.js component state, directives, progressive enhancement, accessibility |
+| [`bootstrap-expert`](./bootstrap-expert/SKILL.md) | Bootstrap grid, components, upgrades, theming, JavaScript integration |
+| [`boxlang-expert`](./boxlang-expert/SKILL.md) | BoxLang idioms, modules, async flows, runtime integration, Ortus conventions |
+| [`code-documenter`](./code-documenter/SKILL.md) | API docs, docstrings, runbooks, onboarding docs, documentation consistency |
+| [`code-reviewer`](./code-reviewer/SKILL.md) | Severity-ranked code review, regression risk, correctness, performance, test gaps |
+| [`gitbook-docs-expert`](./gitbook-docs-expert/SKILL.md) | GitBook structure, information architecture, markdown consistency, docs publishing workflows |
+| [`github-action-authoring`](./github-action-authoring/SKILL.md) | GitHub Actions authoring, workflow design, reusable actions, CI reliability and security |
+| [`java-expert`](./java-expert/SKILL.md) | Java service design, concurrency, profiling, testing, production hardening |
+| [`javascript-expert`](./javascript-expert/SKILL.md) | Modern JavaScript design, async flows, module boundaries, runtime safety |
+| [`ortus-java-coding-standards`](./ortus-java-coding-standards/SKILL.md) | Ortus Java coding conventions, style consistency, maintainability and quality guardrails |
+| [`security-expert`](./security-expert/SKILL.md) | Threat modeling, auth, validation, secrets, secure coding remediation |
+| [`tailwind-expert`](./tailwind-expert/SKILL.md) | Tailwind tokens, utility composition, responsive patterns, accessibility styling |
+| [`typescript-expert`](./typescript-expert/SKILL.md) | Type modeling, strict mode adoption, generics, inference, runtime boundary safety |
+| [`vite-expert`](./vite-expert/SKILL.md) | Vite configuration, HMR, bundling strategy, env handling, Vitest integration |
+| [`vuejs-expert`](./vuejs-expert/SKILL.md) | Vue 3 Composition API, component architecture, state ownership, rendering patterns |
 
 ---
 
@@ -53,7 +56,21 @@ npx skills add Ortus-Solutions/skills/skills/security-expert
 
 | Path | Purpose |
 |------|---------|
-| [`skills/`](./skills/) | Canonical skill source folders |
+| [`alpinejs-expert/`](./alpinejs-expert/) | Skill folder |
+| [`bootstrap-expert/`](./bootstrap-expert/) | Skill folder |
+| [`boxlang-expert/`](./boxlang-expert/) | Skill folder |
+| [`code-documenter/`](./code-documenter/) | Skill folder |
+| [`code-reviewer/`](./code-reviewer/) | Skill folder |
+| [`gitbook-docs-expert/`](./gitbook-docs-expert/) | Skill folder |
+| [`github-action-authoring/`](./github-action-authoring/) | Skill folder |
+| [`java-expert/`](./java-expert/) | Skill folder |
+| [`javascript-expert/`](./javascript-expert/) | Skill folder |
+| [`ortus-java-coding-standards/`](./ortus-java-coding-standards/) | Skill folder |
+| [`security-expert/`](./security-expert/) | Skill folder |
+| [`tailwind-expert/`](./tailwind-expert/) | Skill folder |
+| [`typescript-expert/`](./typescript-expert/) | Skill folder |
+| [`vite-expert/`](./vite-expert/) | Skill folder |
+| [`vuejs-expert/`](./vuejs-expert/) | Skill folder |
 | [`.claude-plugin/plugin.json`](./.claude-plugin/plugin.json) | Claude Code plugin manifest |
 | [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json) | Claude Code marketplace catalog |
 | [`.mcp.json`](./.mcp.json) | Ortus documentation MCP endpoints |
