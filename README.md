@@ -95,7 +95,10 @@ The bundled [`.mcp.json`](./.mcp.json) points to Ortus GitBook MCP servers for:
 
 | Resource | Link |
 |----------|------|
+| Skills Publishing Site | https://skills.boxlang.io/ |
 | Ortus Solutions | https://www.ortussolutions.com/ |
+| ColdBox Skills Repository | https://github.com/coldbox/skills |
+| BoxLang Skills Repository | https://github.com/ortus-boxlang/skills |
 | BoxLang Documentation | https://boxlang.ortusbooks.com/ |
 | ColdBox Documentation | https://coldbox.ortusbooks.com/ |
 | Claude Code Plugin Docs | https://code.claude.com/docs/en/plugins |
