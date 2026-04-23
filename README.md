@@ -4,6 +4,8 @@
 
 This repository follows a flat `<slug>/SKILL.md` layout at the repository root and works as a Claude Code plugin marketplace as well as skills.sh-compatible tooling.
 
+**You can find all our skills published to our online directory at https://skills.boxlang.io/.**
+
 ---
 
 ## Quick Install
