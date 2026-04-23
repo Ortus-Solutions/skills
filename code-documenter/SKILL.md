@@ -10,7 +10,7 @@ metadata:
   role: expert
   scope: implementation
   output-format: document
-  related-skills: code-reviewer, boxlang-expert, java-expert, typescript-expert
+  related-skills: code-reviewer, java-expert, typescript-expert
 ---
 
 # Code Documenter
@@ -77,6 +77,5 @@ doc architecture, api reference writing, docstrings, runbooks, troubleshooting s
 ## Related Skills
 
 - `code-reviewer`
-- `boxlang-expert`
 - `java-expert`
 - `typescript-expert`

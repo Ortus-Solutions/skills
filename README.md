@@ -24,7 +24,6 @@ npx skills add Ortus-Solutions/skills
 
 # Install a single skill
 npx skills add Ortus-Solutions/skills/vuejs-expert
-npx skills add Ortus-Solutions/skills/boxlang-expert
 npx skills add Ortus-Solutions/skills/security-expert
 ```
 
@@ -36,7 +35,6 @@ npx skills add Ortus-Solutions/skills/security-expert
 |-------|----------------|
 | [`alpinejs-expert`](./alpinejs-expert/SKILL.md) | Alpine.js component state, directives, progressive enhancement, accessibility |
 | [`bootstrap-expert`](./bootstrap-expert/SKILL.md) | Bootstrap grid, components, upgrades, theming, JavaScript integration |
-| [`boxlang-expert`](./boxlang-expert/SKILL.md) | BoxLang idioms, modules, async flows, runtime integration, Ortus conventions |
 | [`code-documenter`](./code-documenter/SKILL.md) | API docs, docstrings, runbooks, onboarding docs, documentation consistency |
 | [`code-reviewer`](./code-reviewer/SKILL.md) | Severity-ranked code review, regression risk, correctness, performance, test gaps |
 | [`gitbook-docs-expert`](./gitbook-docs-expert/SKILL.md) | GitBook structure, information architecture, markdown consistency, docs publishing workflows |
@@ -58,7 +56,6 @@ npx skills add Ortus-Solutions/skills/security-expert
 |------|---------|
 | [`alpinejs-expert/`](./alpinejs-expert/) | Skill folder |
 | [`bootstrap-expert/`](./bootstrap-expert/) | Skill folder |
-| [`boxlang-expert/`](./boxlang-expert/) | Skill folder |
 | [`code-documenter/`](./code-documenter/) | Skill folder |
 | [`code-reviewer/`](./code-reviewer/) | Skill folder |
 | [`gitbook-docs-expert/`](./gitbook-docs-expert/) | Skill folder |

@@ -10,7 +10,7 @@ metadata:
   role: expert
   scope: analysis
   output-format: analysis-and-code
-  related-skills: code-reviewer, java-expert, javascript-expert, boxlang-expert
+  related-skills: code-reviewer, java-expert, javascript-expert
 ---
 
 # Security Expert
@@ -80,4 +80,3 @@ owasp top 10, threat modeling, trust boundaries, secure auth patterns, token/ses
 - `code-reviewer`
 - `java-expert`
 - `javascript-expert`
-- `boxlang-expert`

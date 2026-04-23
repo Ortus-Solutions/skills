@@ -10,7 +10,7 @@ metadata:
   role: expert
   scope: review
   output-format: report
-  related-skills: security-expert, code-documenter, javascript-expert, boxlang-expert
+  related-skills: security-expert, code-documenter, javascript-expert
 ---
 
 # Code Reviewer
@@ -81,4 +81,3 @@ review heuristics, defect patterns, edge-case analysis, failure modes, severity 
 - `security-expert`
 - `code-documenter`
 - `javascript-expert`
-- `boxlang-expert`
