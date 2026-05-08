@@ -35,9 +35,12 @@
         "./github-action-authoring/",
         "./java-expert/",
         "./javascript-expert/",
+        "./junit-expert/",
+        "./mockito-expert/",
         "./ortus-java-coding-standards/",
         "./security-expert/",
         "./tailwind-expert/",
+        "./testcontainers-expert/",
         "./typescript-expert/",
         "./vite-expert/",
         "./vuejs-expert/"
